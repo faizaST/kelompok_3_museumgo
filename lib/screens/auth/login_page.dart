@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kelompok_3_museumgo/auth/regristrasi_page.dart';
+import 'package:kelompok_3_museumgo/screens/auth/regristrasi_page.dart';
 
 
 class LoginPage extends StatefulWidget {
@@ -119,7 +119,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => RegristasiPage(),
+                          builder: (context) => RegistrasiPage(),
                         ),
                       );
                     },
